@@ -7,5 +7,9 @@ X represents the % of the population that has a high school diploma. Y represent
 ### Testing Assumptions
 The script tests the following assumptions: 
 1. The data is linear
+2. The variance (sigma^2) of the errors is constant
+3. The errors are independent
+4. The errors are normally distributed
 
+## Also look at outliers and confidence & prediction intervals
 
