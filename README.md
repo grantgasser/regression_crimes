@@ -11,5 +11,5 @@ The script tests the following assumptions:
 3. The errors are independent
 4. The errors are normally distributed
 
-## Also look at outliers and confidence & prediction intervals
+#### Also look at outliers and confidence & prediction intervals
 
