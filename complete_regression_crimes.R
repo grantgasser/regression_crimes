@@ -55,7 +55,8 @@ bptest(fit) #H0: normality and independence of residuals
 dwtest(fit) #H0: correlation is 0
 bgtest(fit) #a bit more robust
 
-#both tests are significant, suggesting the residuals are independent
+#both tests are significant, suggesting there is correlation among the residuals
+#and that they are not independant, contrary to my interpretation of the residuals plot
 
 #4: Inspect outliers
 #First plot reveals 27, 37 as outliers
@@ -93,6 +94,7 @@ plot(fit, which=1)
 
 
 #5: Are the error terms normally distributed?
+library(car)
 qqPlot(fit$residuals)
 
 #Shapiro test for normality (H0: normally distributed)
